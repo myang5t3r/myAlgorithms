@@ -6,6 +6,6 @@ function findMedian(arr) {
   return arr[index];
 }
 
-const myArr = [0, 2, 3, 4, 1, 11, 5];
+const myArr = [1, 2, 3, 4, 3, 2, 1];
 
 findMedian(myArr);
