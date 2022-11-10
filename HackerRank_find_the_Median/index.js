@@ -8,4 +8,4 @@ function findMedian(arr) {
 
 const myArr = [1, 2, 3, 4, 3, 2, 1];
 
-findMedian(myArr);
+console.log(findMedian(myArr));
