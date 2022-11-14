@@ -3,8 +3,11 @@
 
 var isUnique = function (arr) {
   const str = arr.join("");
+  console.log(str);
   for (const element of arr) {
+    console.log(element);
     let count = str.split(element).length - 1;
+    console.log(count);
     if (count > 1) {
       return false;
     }
@@ -12,6 +15,6 @@ var isUnique = function (arr) {
   return true;
 };
 
-const myArr = [1, 2, 4, 5, 2];
+const myArr = [1, 2, 4, 5, 3];
 
-isUnique(myArr);
+console.log(isUnique(myArr));
